@@ -1,0 +1,36 @@
+body{
+    display: flex;
+}
+main{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(33, 33, 34);
+    color: aliceblue;
+}
+.main-box
+{
+    width: 100%;
+}
+h2{
+    font-size: 3rem;
+}
+.mini-box{
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom: 1.5rem;
+    background-color: rgb(132, 132, 133);
+    padding: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+aside{
+    width: 40%;
+}
